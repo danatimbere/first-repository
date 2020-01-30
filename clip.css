@@ -1,0 +1,6 @@
+.myclip {
+    widthL 200px;
+    height: 200px;
+    background-color: teal;
+    clip-path: circle(40%);
+}
