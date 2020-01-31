@@ -1,6 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+
 .myclip {
     widthL 200px;
     height: 200px;
     background-color: teal;
     clip-path: circle(40%);
+}
+
+.myclip2 {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.myclip3 {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+@media (min-width: 400px) {
+    .myclip3 {
+        clip-path: circle(45%);
+    }
 }
