@@ -3,7 +3,8 @@ body {
 }"
 
 .container {
-    display::grid;
+    
+    display:grid;
 }
 #cont1:{
     grid-template-columns: : 200px 25% 10em;
