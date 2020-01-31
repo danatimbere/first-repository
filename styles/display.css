@@ -16,5 +16,11 @@
 }
 
 .sclass1 {
-    background-color: honeydew;
+    background-color: yellow;
+}
+
+.sclass2 {
+    background-color: tomato;
+    display: inline-block;
+    
 }
