@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holy grail</title>
+    link rel="stylesheet" href="styles/holy.css"
+
+    .HolyGrail,
+.HolyGrail-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.HolyGrail-nav {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .HolyGrail-content {
+    flex: 1;
+  }
+  .HolyGrail-nav, .HolyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
+}
+
+</head>
+<body>
+    <div class="outer-container">
+    <header>Header content</header>
+</div>
+<div class ="menu-cont">
+    <section>My Menu</section>
+</div>
+<div class="ad cont">My ad goes here</div>
+
+
+
+</body>
+</html>
