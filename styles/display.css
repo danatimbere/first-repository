@@ -22,5 +22,7 @@
 .sclass2 {
     background-color: tomato;
     display: inline-block;
-    
+    height: 50px;
+    width: 200px;
+
 }
