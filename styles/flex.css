@@ -1,13 +1,14 @@
 body {
-background-color: lightpink;
+background-color: gray;
 }
 
 .container {
     background-color: darksalmon;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* justify-content: center; */
+    flex-direction: row;
     flex-flow: wrap;
+    align-items: center;
     height: 400px;
 }
 
