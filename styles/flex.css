@@ -1,3 +1,16 @@
 body {
 background-color: lightpink;
 }
+
+.container {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child {
+    margin: 10px;
+    boder: 3px solid black;
+
+}
