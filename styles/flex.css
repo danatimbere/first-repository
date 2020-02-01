@@ -6,11 +6,14 @@ background-color: lightpink;
     background-color: darksalmon;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    height: 400px;
 }
 
 .child {
     margin: 10px;
-    boder: 3px solid black;
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
 
 }
