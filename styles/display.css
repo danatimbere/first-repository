@@ -10,6 +10,10 @@
     background-color: peru ;
     display: inline;
 }
+.class4 {
+    background-color: indianred;
+    display: none;
+}
 
 .sclass3 {
     background-color: grey;
