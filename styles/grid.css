@@ -1,15 +1,33 @@
 body {
     background-color: yellowgreen;
-}"
+}
 
 .container {
     
     display:grid;
 }
-#cont1:{
-    grid-template-columns: : 200px 25% 10em;
+#cont1 {
+    grid-template-columns: 200px 25% 10em;
 }
 
-#cont2:{
-    grid-template-columns: : 25% 50% 25%;
+#cont2 {
+    grid-template-columns: 25% 50% 25%;
+}
+
+.child1 {
+    background-color: aqua;
+}
+.child2 {
+    background-color: lightslategrey;
+}
+.child3 {
+    background-color: rgb(163, 189, 15);
+}
+.child4 {
+
+    background-color: saddlebrown;
+}
+
+.child5 {
+    background-color: silver;
 }
