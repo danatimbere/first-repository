@@ -5,7 +5,7 @@ background-color: gray;
 .container {
     background-color: darksalmon;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: row;
     flex-flow: wrap;
     align-items: center;
