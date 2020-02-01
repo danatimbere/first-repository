@@ -4,6 +4,7 @@
 .class2 {
     background-color: plum ;
     display: flex;
+    justify-content: center;
 }
 
 .class3 {
