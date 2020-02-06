@@ -27,6 +27,7 @@ const myButton = document.querySelector("#submitBtn");
 const delButton = document.querySelector("#deleteBtn");
 //const myButton = document.querySelector
 
+myButton.style.backgroundColor = "orange";
 myButton.classList.add("big-button");
 
 const myInput = document.querySelector(".num-input");
@@ -45,7 +46,7 @@ function onButtonClick() {
         let resultsCont = document.querySelector(".results-cont");
 
 
-        const newP = document.createElement('p');
+        const newP = document.createElement("p");
         newP.textContent = `Throws: ${nThrows} Average: ${result}`;
         resultsCont.appendChild(newP);
 
@@ -60,9 +61,9 @@ function onButtonClick() {
     }
     }
     
-    function onChangeBtnClick();
+    function onChangeBtnClick() {
         console.log("Clicked change button");
-  
+}
 
 myButton.onclick= onButtonClick;
 delButton.onclick = onDelete;
