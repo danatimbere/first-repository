@@ -22,5 +22,10 @@ myParagraph.textContent = `Average throw value is ${myParagraph.querySelector(my
 
 const myButton = document.querySelector(".pretty-button");
 //const myButton = document.querySelector
-myButton.classList.add("big-button");
-myButton.addEventListener("press", () => console.log("Pressed"));
+
+funcion onButtonClick() {
+        console.log("button was clicked!")";"
+}
+
+
+myButton.addEventListener("click", onButtonClick);
