@@ -49,6 +49,11 @@ function onButtonClick() {
 }
     function onDelete();
     console.log("on delete");
+    let element = resultsCont;
+    while (element.firstChild) {
 
+    element.removeChild(element.firstChild);
+
+    }
 myButton.addEventListener("click", onButtonClick);
 delButton.onclick = onDelete;
