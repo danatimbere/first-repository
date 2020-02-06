@@ -23,8 +23,16 @@ myParagraph.textContent = `Average throw value is ${myParagraph.querySelector(my
 const myButton = document.querySelector(".pretty-button");
 //const myButton = document.querySelector
 
-funcion onButtonClick() {
-        console.log("button was clicked!")";"
+const myInput = document.querySelector(".num-input");
+console.log(`My value input is ${myInput.value}`);
+
+
+function onButtonClick() {
+        console.log("button was clicked!");
+        console.log(`My value input is ${myInput.value}`);
+        let nThrows = myInput.value;
+        let result = getAverage(nThrows);
+        myParagraph.textContent = `Average throw value is ${(result)}`;
 }
 
 
