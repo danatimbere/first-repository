@@ -17,4 +17,10 @@ const numThrows = 10000;
 let result = getAverage(numThrows);
 
 let myParagraph =document.querySelector("#answer");
-myParagraph.textContent = `Average throw value is $(result)`;
+myParagraph.myResult = result;
+myParagraph.textContent = `Average throw value is ${myParagraph.querySelector(myResult)}`;
+
+const myButton = document.querySelector(".pretty-button");
+//const myButton = document.querySelector
+myButton.classList.add("big-button");
+myButton.addEventListener("press", () => console.log("Pressed"));
