@@ -32,8 +32,18 @@ function onButtonClick() {
         console.log(`My value input is ${myInput.value}`);
         let nThrows = myInput.value;
         let result = getAverage(nThrows);
-        myParagraph.textContent = `Average throw value is ${(result)}`;
-}
+        myParagraph.textContent = `Average throw value is ${result}`;
 
+        //let rec = Math.floor(Math.random() * 256);
+        //document.body.style.background = `rgb($(red), 128, 129)`;
+        let resultsCont = document.querySelector(".result-cont");
+
+
+        const newP = document.createElement('p');
+        newP.textContent = `Throws: ${nThrows} Average: ${result}`;
+        resultsCont.appendChild(newP);
+
+}
+    
 
 myButton.addEventListener("click", onButtonClick);
