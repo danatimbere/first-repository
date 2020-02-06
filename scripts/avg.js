@@ -8,7 +8,7 @@ function getAverage(numThrows) {
     randomRange(1,6);
 
     for (let i = 0; i < numThrows; i++) {
-        total= += randomRange(1,6);
+        total += randomRange(1,6);
     }
     return total/numThrows;
     console.log(total(i));
@@ -17,4 +17,4 @@ const numThrows = 10000;
 let result = getAverage(numThrows);
 
 let myParagraph =document.querySelector("#answer");
-myParagraph.textContent = Average throw value is #(result);
+myParagraph.textContent = `Average throw value is $(result)`;
