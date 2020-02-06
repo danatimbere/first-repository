@@ -11,20 +11,21 @@
 </head>
 <body>
     <h1>Avg 100 rows</h1>
-    <p id="answer"></p>
-    <input>
+    
+    <input
      type="number" 
+     class = "num-input"
      name="numthrows" 
-     id="throwInput">
+     id="throwInput"
+     value=100
+     />
      
-    <button id="submit">New Calculation</button>
     <button class = "pretty-button" id="submitBtn">New Calculation</button>
-    <button id="delete">Delete</button>
-    <button class = "Delete" id="deleteBtn">Delete row</button>
+    <button class = "alarm-button" id="deleteBtn">Delete</button>
+    <button class= "normal-button" id="changeBtn">Change Paragraphs</button>
     <hr>
-    <div class="result-const"></div>
-
-
-
-</body>
+    <div class="results-cont">
+        <p id="answer"></p>
+    </div>
+    </body>
 </html>

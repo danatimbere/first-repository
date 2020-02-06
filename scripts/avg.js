@@ -4,17 +4,20 @@ function randomRange(myMin, myMax) {
 
 function getAverage(numThrows) {
     
-    let total = 0
-    randomRange(1,6);
+    let total = 0;
+    //use randomRange(1,6);
 
     for (let i = 0; i < numThrows; i++) {
         total += randomRange(1,6);
     }
-    return total/numThrows;
+    return total / numThrows;
     console.log(total(i));
 }
+
 const numThrows = 10000;
 let result = getAverage(numThrows);
+
+console.log("Going to print answer");
 
 let myParagraph =document.querySelector("#answer");
 myParagraph.myResult = result;
@@ -39,7 +42,7 @@ function onButtonClick() {
 
         //let rec = Math.floor(Math.random() * 256);
         //document.body.style.background = `rgb($(red), 128, 129)`;
-        let resultsCont = document.querySelector(".result-cont");
+        let resultsCont = document.querySelector(".results-cont");
 
 
         const newP = document.createElement('p');
@@ -47,13 +50,21 @@ function onButtonClick() {
         resultsCont.appendChild(newP);
 
 }
-    function onDelete();
+    function onDelete() {
     console.log("on delete");
-    let element = resultsCont;
+    let element = document.querySelector(".results-cont");
     while (element.firstChild) {
 
     element.removeChild(element.firstChild);
 
     }
-myButton.addEventListener("click", onButtonClick);
+    }
+    
+    function onChangeBtnClick();
+        console.log("Clicked change button");
+  
+
+myButton.onclick= onButtonClick;
 delButton.onclick = onDelete;
+document.querySelector("#changeBtn").onClick = onChangeBtnClick;
+
