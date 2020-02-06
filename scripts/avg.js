@@ -11,7 +11,7 @@ function getAverage(numThrows) {
         total += randomRange(1,6);
     }
     return total / numThrows;
-    console.log(total(i));
+    //console.log(total(i));
 }
 
 const numThrows = 10000;
@@ -39,7 +39,8 @@ function onButtonClick() {
         console.log(`My value input is ${myInput.value}`);
         let nThrows = myInput.value;
         let result = getAverage(nThrows);
-        myParagraph.textContent = `Average throw value is ${result}`;
+        
+        //myParagraph.textContent = `Average throw value is ${result}`;
 
         //let rec = Math.floor(Math.random() * 256);
         //document.body.style.background = `rgb($(red), 128, 129)`;
@@ -52,13 +53,12 @@ function onButtonClick() {
 
 }
     function onDelete() {
-    console.log("on delete");
-    let element = document.querySelector(".results-cont");
-    while (element.firstChild) {
+        console.log("on delete");
+            let element = document.querySelector(".results-cont");
+            while (element.firstChild) {
 
-    element.removeChild(element.firstChild);
-
-    }
+            element.removeChild(element.firstChild);
+                   }
     }
     
     function onChangeBtnClick() {
