@@ -47,6 +47,8 @@ function onButtonClick() {
         resultsCont.appendChild(newP);
 
 }
-    
+    function onDelete();
+    console.log("on delete");
 
 myButton.addEventListener("click", onButtonClick);
+delButton.onclick = onDelete;

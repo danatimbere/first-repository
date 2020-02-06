@@ -1,0 +1,9 @@
+.big-button {
+    display: inline-block;
+    width: 50%;
+    background-color: orangered;
+}
+
+.result-cont {
+    background-color: yellow;
+}
