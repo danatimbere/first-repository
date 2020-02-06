@@ -18,10 +18,13 @@ let result = getAverage(numThrows);
 
 let myParagraph =document.querySelector("#answer");
 myParagraph.myResult = result;
-myParagraph.textContent = `Average throw value is ${myParagraph.querySelector(myResult)}`;
+myParagraph.textContent = `Average throw value is ${myParagraph.myResult}`;
 
-const myButton = document.querySelector(".pretty-button");
+const myButton = document.querySelector("#submitBtn");
+const delButton = document.querySelector("#deleteBtn");
 //const myButton = document.querySelector
+
+myButton.classList.add("big-button");
 
 const myInput = document.querySelector(".num-input");
 console.log(`My value input is ${myInput.value}`);
