@@ -9,3 +9,5 @@ function main() {
         $('h1').addclass("headline main");
         $('j-cont').append($("<span>My text</span>").addclass("widget"));
 }
+
+$('#clone-me').clone().prop('id', 'clone2').appendTo('.new-parent');
