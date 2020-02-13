@@ -19,7 +19,15 @@ class Rectangle {
       this.height = height;
       this.width = width;
     }
+    showVals() {
+        console.log(this.height, this.width, this.otherval);
+    }
   }
 
   let sq = new Rectangle(10,10);
-  console.log(sq.Rectangle);  
+  sq.showVals();  
+
+  const taisnst = new Rectangle(20,40);
+  taisnst.showVals();
+  taisnst.myOwnVal = 300;
+  console.log(taisnst.myOwnVal);

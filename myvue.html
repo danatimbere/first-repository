@@ -14,5 +14,14 @@
     <div class="main-cont" id="app"></div>
       hello {(message)}
       <p>the number is {(message)}</p>
+      <p v-bind:title="message">Title bind example</p>
+
+      <input v-model="message">
+      <button v:onClick="toggleSeen">Toggle seen</button>
+      
+      <ol>
+      
+
+      </ol>
 </body>
 </html>
